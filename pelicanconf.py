@@ -1,33 +1,31 @@
+"""
+Configurações gerais do projeto `Pelican`.
+Arquivo gerado automaticamente pelo framework.
+"""
+
 AUTHOR = '@pugphb'
 SITENAME = 'PUG Parnaíba'
 SITEURL = ''
 
 PATH = 'content'
-
 TIMEZONE = 'America/Sao_Paulo'
+DEFAULT_LANG = 'pt-BR'
 
-DEFAULT_LANG = 'pt'
-
-# Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Telegram', 'https://t.me/pugphb'),
+    ('GitHub', 'https://github.com/pugphb'),
+)
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (
+#     ('You can add links in your config file', '#'),
+#     ('Another social link', '#'),
+# )
 
 DEFAULT_PAGINATION = 10
-
-THEME = 'attila'
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+THEME = 'notmyidea'

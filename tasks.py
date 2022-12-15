@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+"""
+Tasks de linha de comando do `Pelican`.
+Arquivo gerado automaticamente pelo framework.
+"""
+
 import os
 import shlex
 import shutil
